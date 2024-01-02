@@ -24,19 +24,18 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am currently pursuing my Master's in Computer Applications (MCA) at Christ University. My academic journey has been focused on embracing the potential of Internet of Things (IoT) technology. I am dedicated to understanding and developing IoT to its fullest capacity, driven by a passion for innovation and its transformative impact on the technological landscape.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Cloud Platform: AWS",
+  "Python Programming",
+  "IoT Data Analysis",
+  "Computer Networking",
+  "Development of Internet of Things Application",
 ];
 
 /**
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am a dynamic professional and a Microsoft Student Learn Ambassador from Christ University, skilled in SQL, Relational Database Management Systems, and Python Programming. Specializing in Computer Networking, I have hands-on experience in developing and deploying web applications. Proficient in AWS, IoT data analysis, and software development concepts, I am eager to collaborate on user-focused solutions with cross-functional teams.";
 
 const About = () => {
   return (

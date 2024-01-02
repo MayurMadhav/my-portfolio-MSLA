@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/about-bg.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "CampusWheels: For Christ University 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Contributed to a collaborative initiative, crafting a beginner-friendly article to elucidate the functionalities of CampusWheels: For Christ University, emphasizing the integration of YOLOv8 and EasyOCR for real-time license plate recognition in campus vehicle management. ",
+    url: "https://github.com/CampusWheels/campus_wheels",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Efficient Usage of Lift During Peek Hours in Christ University",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed an innovative solution for optimizing lift usage during peak hours at Christ University. Demonstrated the efforts and innovativeness by working together in a team. ",
+    url: "https://github.com/cratonoid/Elevator_Project",
   },
   {
-    title: "My Resume Site",
+    title: "Real-Time Crack Detection using Laplacian Filter & Contour Analysis",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Showcased expertise in computer vision and image processing to identify and analyze cracks, contributing to enhanced infrastructure maintenance and safety. ",
+    url: "https://github.com/MayurMadhav/RealTimeCrackDetection",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Monitoring Structural Health using Internet of Things",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "An Internet of Things project that monitors the damaged & collapsing structures from which critical decisions can be made. Published a research paper on about this project in Journal of Emerging Technologies and Innovative Research on Jun 17, 2022",
+    url: "https://github.com/MayurMadhav/Monitoring-Structural-Health",
   },
 ];
 
@@ -61,7 +61,7 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "40%", alignSelf: "center", marginLeft: "1rem" }}>
           <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
@@ -82,5 +82,32 @@ const Portfolio = () => {
     </section>
   );
 };
+
+// const Portfolio = () => {
+//   return (
+//     <section className="padding" id="portfolio">
+//       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+//       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+//         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+//           <img
+//             src={image}
+//             style={{ height: "90%", width: "100%", objectFit: "cover" }}
+//             alt={imageAltText}
+//           />
+//         </div>
+//         <div className="container">
+//           {projectList.map((project) => (
+//             <div className="box" key={project.title}>
+//               <a href={project.url} target="_blank" rel="noopener noreferrer">
+//                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+//               </a>
+//               <p className="small">{project.description}</p>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
 
 export default Portfolio;
